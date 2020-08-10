@@ -1,0 +1,28 @@
+html {
+    font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high  */
+    font-family: 'Open Sans', sans-serif; /* this should be the rest of the output you got from Google fonts */
+}
+
+table {
+    border-collapse: collapse;
+    border: solid 2px black;
+    letter-spacing: normal;
+    font-size: 1.4rem;
+}
+
+td {
+    border : solid 1px black;
+    padding: 5px 10px;
+}
+
+.table-even {
+    background: #dddddd;
+}
+thead {
+    background: #777777;
+    color: #ffffff;
+}
+
+/* tbody>:nth-child(even) {
+    background: #dddddd;
+} */
